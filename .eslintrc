@@ -1,0 +1,15 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es2021": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2021, // 支持 ES2021 语法
+        "sourceType": "module", // 支持 ES 模块
+        "ecmaFeatures": {
+            "jsx": true // 启用 JSX 语法
+        },
+        "requireConfigFile": false // 不需要额外的 Babel 配置文件
+    }
+}
